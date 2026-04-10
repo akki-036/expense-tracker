@@ -1,0 +1,59 @@
+<web-app>
+
+  <!-- Login -->
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>LoginServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+
+  <!-- Register -->
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>RegisterServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+
+  <!-- Dashboard -->
+  <servlet>
+    <servlet-name>DashboardServlet</servlet-name>
+    <servlet-class>DashboardServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DashboardServlet</servlet-name>
+    <url-pattern>/DashboardServlet</url-pattern>
+  </servlet-mapping>
+
+  <!-- Expenses List -->
+  <servlet>
+    <servlet-name>ExpensesServlet</servlet-name>
+    <servlet-class>ExpensesServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ExpensesServlet</servlet-name>
+    <url-pattern>/ExpensesServlet</url-pattern>
+  </servlet-mapping>
+
+  <!-- Add Expense -->
+  <servlet>
+    <servlet-name>AddExpenseServlet</servlet-name>
+    <servlet-class>AddExpenseServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AddExpenseServlet</servlet-name>
+    <url-pattern>/AddExpenseServlet</url-pattern>
+  </servlet-mapping>
+
+
+</web-app>
