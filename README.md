@@ -1,10 +1,10 @@
-# Expense Tracker 💰
+# Expense Tracker
 
 A web-based Expense Tracker application developed using Java Servlets, JSP, MySQL, HTML, CSS, and JavaScript. The application allows users to manage daily expenses efficiently with features like adding, viewing, filtering, and deleting expense records.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Add new expenses with amount, category, date, and description  
 - View all expenses in a structured format  
@@ -15,7 +15,7 @@ A web-based Expense Tracker application developed using Java Servlets, JSP, MySQ
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - HTML5  
@@ -34,7 +34,7 @@ A web-based Expense Tracker application developed using Java Servlets, JSP, MySQ
 
 ---
 
-## ⚙️ Setup & Run
+## Setup & Run
 
 1. Clone the repository:
 ```bash
