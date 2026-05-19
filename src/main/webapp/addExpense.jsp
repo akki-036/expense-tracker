@@ -9,7 +9,8 @@
 <head>
     <title>Add Expense</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/addExpense.css">
+    <link rel="stylesheet"
+    href="${pageContext.request.contextPath}/css/addEdit.css">
 </head>
 <body>
 

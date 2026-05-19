@@ -92,6 +92,12 @@ public class DashboardServlet extends HttpServlet {
 
         } catch (Exception e) {
             e.printStackTrace();
+            res.getWriter().println(e);
         }
     }
+    protected void doPost(HttpServletRequest req, HttpServletResponse res)
+        throws ServletException, IOException {
+
+    doGet(req, res);
+}
 }

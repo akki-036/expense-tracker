@@ -1,6 +1,9 @@
 # Compiled Java files
 *.class
 
+# Maven build folder
+target/
+
 # Mac system files
 .DS_Store
 
@@ -9,3 +12,6 @@
 
 # VS Code
 .vscode/
+
+# War files
+*.war

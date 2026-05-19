@@ -10,22 +10,29 @@
     <version>1.0</version>
     <packaging>war</packaging>
 
+     <!-- Servlet API -->
     <dependencies>
-        <!-- Servlet API -->
         <dependency>
     <groupId>jakarta.servlet</groupId>
     <artifactId>jakarta.servlet-api</artifactId>
     <version>5.0.0</version>
     <scope>provided</scope>
-</dependency>
-
-        <!-- MySQL -->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.33</version>
         </dependency>
-    </dependencies>
+
+       <!-- MySQL -->
+         <dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.33</version>
+         </dependency>
+   
+     <!-- BCrypt -->
+         <dependency>
+        <groupId>org.mindrot</groupId>
+        <artifactId>jbcrypt</artifactId>
+        <version>0.4</version>
+         </dependency>
+     </dependencies>
 
     <build>
         <finalName>expense-tracker</finalName>
@@ -34,7 +41,6 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>3.3.2</version>
     </plugin>
-</plugins>
+        </plugins>
     </build>
-
 </project>
