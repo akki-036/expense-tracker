@@ -87,11 +87,10 @@ mvn clean install
 ```
 
 4. Deploy on Tomcat:
-Deploy the generated WAR file from
+Deploy the generated WAR file to Apache Tomcat.
 ```bash
 target/expense-tracker.war
 ```
-to Apache Tomcat.
 
 ---
 ## Future Improvements
